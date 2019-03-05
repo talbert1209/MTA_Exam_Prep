@@ -1,19 +1,28 @@
+using System;
+using System.Security;
+
 namespace Lesson02
 {
     public class Rectangle
     {
-        private double _length;
-        private double _width;
+        public event EventHandler Changed;
 
-        public Rectangle(double length, double width)
+        private double _length;
+        private double _width = 5;
+
+        public double Length
         {
-            _length = length;
-            _width = width;
+            get { return _length; }
+            set
+            {
+                _length = value;
+                if (Changed != null) Changed(this, EventArgs.Empty);
+            }
         }
 
         public double GetArea()
         {
             return _length * _width;
-        }
+        } 
     }
 }
