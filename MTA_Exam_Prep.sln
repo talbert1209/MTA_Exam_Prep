@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson02.Inheritance", "Les
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson02.Polymorphism", "Lesson02.Polymorphism\Lesson02.Polymorphism.csproj", "{0127460C-166B-42D5-A89B-1C0F8C0DE03B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson02.Interfaces", "Lesson02.Interfaces\Lesson02.Interfaces.csproj", "{F622E119-4BDD-49B0-86DB-9A0CC8FDD08E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0127460C-166B-42D5-A89B-1C0F8C0DE03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0127460C-166B-42D5-A89B-1C0F8C0DE03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0127460C-166B-42D5-A89B-1C0F8C0DE03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F622E119-4BDD-49B0-86DB-9A0CC8FDD08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F622E119-4BDD-49B0-86DB-9A0CC8FDD08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F622E119-4BDD-49B0-86DB-9A0CC8FDD08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F622E119-4BDD-49B0-86DB-9A0CC8FDD08E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
